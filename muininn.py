@@ -26,7 +26,9 @@ This bot should do the following:
     - Provide a welcome message to any new users about the role of the bot and server
     - Create any number of monitored messages (via reactions) and do a pre-programmed task with each.
 
-Methodology:
+Front-End Methodology:
     - Use different cogs to integrate specific commands to the bot - e.g. /xiv or /sc
     - Reacting to any Muininn-monitored messages will send a message conducting a transaction with the user
+        - Can this be a cog or does it need to be a separate file within core?
 """
+# TODO: Move this wall of text to the Readme.md you haven't created yet
